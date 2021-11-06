@@ -1,19 +1,19 @@
-.container {
+.dropdown {
     width:200px;
     position: relative;
     margin-bottom: 100px;
 }
 
-.click{
+.dropdown__click{
     background-color: #1c1c1c;
 }
 
-.click:hover {
+.dropdown__click:hover {
     background-color: #4a4949;
     cursor: pointer;
 }
 
-.click, .rates {
+.dropdown__click, .dropdown__rates {
     padding: 12px;
     font-size: 14px;
     border: none;
@@ -23,22 +23,22 @@
     transition: 0.3s;
 }
 
-.list {
+.dropdown__list {
     position: absolute;
     transform: scaleY(0);
     transform-origin: top;
     transition: 0.3s;
 }
 
-.newlist {
+.dropdown__newList {
     transform: scaleY(1);
 }
 
-.rates {
+.dropdown__rates {
     background-color: #283c63;
 }
 
-.rates:hover {
+.dropdown__rates:hover {
     background-color: #01579B;
     transform: scale(1.1);
     cursor: pointer;
